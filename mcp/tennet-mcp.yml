@@ -1,0 +1,214 @@
+generated: '2026-09-23'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/tennet-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: 'No MCP server was found. The pre-flight posted tools/list to /mcp on api.tennet.eu, www.tennet.eu, developer.tennet.eu; verdict opaque
+  (https://api.tennet.eu/mcp answered 403: the edge authenticates before it routes, which proves nothing either way). Candidate tools below are
+  derived from the 71 operation(s) in the provider''s own OpenAPI (40 listed); they describe what a server WOULD expose, not one that exists.'
+tools:
+- name: get_absolute_redirect_n
+  operationId: get_absolute_redirect_n
+  method: GET
+  path: /absolute-redirect/{n}
+  description: Absolutely 302 Redirects n times.
+- name: get_anything
+  operationId: get_anything
+  method: GET
+  path: /anything
+  description: Returns anything passed in request data.
+- name: patch_anything
+  operationId: patch_anything
+  method: PATCH
+  path: /anything
+  description: Returns anything passed in request data.
+- name: post_anything
+  operationId: post_anything
+  method: POST
+  path: /anything
+  description: Returns anything passed in request data.
+- name: put_anything
+  operationId: put_anything
+  method: PUT
+  path: /anything
+  description: Returns anything passed in request data.
+- name: delete_anything_anything
+  operationId: delete_anything_anything
+  method: DELETE
+  path: /anything/{anything}
+  description: Returns anything passed in request data.
+- name: get_anything_anything
+  operationId: get_anything_anything
+  method: GET
+  path: /anything/{anything}
+  description: Returns anything passed in request data.
+- name: patch_anything_anything
+  operationId: patch_anything_anything
+  method: PATCH
+  path: /anything/{anything}
+  description: Returns anything passed in request data.
+- name: post_anything_anything
+  operationId: post_anything_anything
+  method: POST
+  path: /anything/{anything}
+  description: Returns anything passed in request data.
+- name: put_anything_anything
+  operationId: put_anything_anything
+  method: PUT
+  path: /anything/{anything}
+  description: Returns anything passed in request data.
+- name: get_base64_value
+  operationId: get_base64_value
+  method: GET
+  path: /base64/{value}
+  description: Decodes base64url-encoded string.
+- name: get_basic_auth_user_passwd
+  operationId: get_basic_auth_user_passwd
+  method: GET
+  path: /basic-auth/{user}/{passwd}
+  description: Prompts the user for authorization using HTTP Basic Auth.
+- name: get_bearer
+  operationId: get_bearer
+  method: GET
+  path: /bearer
+  description: Prompts the user for authorization using bearer authentication.
+- name: get_brotli
+  operationId: get_brotli
+  method: GET
+  path: /brotli
+  description: Returns Brotli-encoded data.
+- name: get_bytes_n
+  operationId: get_bytes_n
+  method: GET
+  path: /bytes/{n}
+  description: Returns n random bytes generated with given seed
+- name: get_cache
+  operationId: get_cache
+  method: GET
+  path: /cache
+  description: Returns a 304 if an If-Modified-Since header or If-None-Match is present. Returns the same as a GET otherwise.
+- name: get_cache_value
+  operationId: get_cache_value
+  method: GET
+  path: /cache/{value}
+  description: Sets a Cache-Control header for n seconds.
+- name: get_cookies
+  operationId: get_cookies
+  method: GET
+  path: /cookies
+  description: Returns cookie data.
+- name: get_cookies_set_name_value
+  operationId: get_cookies_set_name_value
+  method: GET
+  path: /cookies/set/{name}/{value}
+  description: Sets a cookie and redirects to cookie list.
+- name: get_cookies_cookieid
+  operationId: get_cookies_cookieid
+  method: GET
+  path: /cookies/{cookieid}
+  description: Deletes cookie(s) as provided by the query string and redirects to cookie list.
+- name: get_deflate
+  operationId: get_deflate
+  method: GET
+  path: /deflate
+  description: Returns Deflate-encoded data.
+- name: delete_delay_delay
+  operationId: delete_delay_delay
+  method: DELETE
+  path: /delay/{delay}
+  description: Returns a delayed response (max of 10 seconds).
+- name: get_delay_delay
+  operationId: get_delay_delay
+  method: GET
+  path: /delay/{delay}
+  description: Returns a delayed response (max of 10 seconds).
+- name: patch_delay_delay
+  operationId: patch_delay_delay
+  method: PATCH
+  path: /delay/{delay}
+  description: Returns a delayed response (max of 10 seconds).
+- name: post_delay_delay
+  operationId: post_delay_delay
+  method: POST
+  path: /delay/{delay}
+  description: Returns a delayed response (max of 10 seconds).
+- name: put_delay_delay
+  operationId: put_delay_delay
+  method: PUT
+  path: /delay/{delay}
+  description: Returns a delayed response (max of 10 seconds).
+- name: delete_delete
+  operationId: delete_delete
+  method: DELETE
+  path: /delete
+  description: The request's DELETE parameters.
+- name: get_deny
+  operationId: get_deny
+  method: GET
+  path: /deny
+  description: Returns page denied by robots.txt rules.
+- name: get_digest_auth_qop_user_passwd
+  operationId: get_digest_auth_qop_user_passwd
+  method: GET
+  path: /digest-auth/{qop}/{user}/{passwd}
+  description: Prompts the user for authorization using Digest Auth.
+- name: get_digest_auth_qop_user_passwd_algorithm
+  operationId: get_digest_auth_qop_user_passwd_algorithm
+  method: GET
+  path: /digest-auth/{qop}/{user}/{passwd}/{algorithm}
+  description: Prompts the user for authorization using Digest Auth + Algorithm.
+- name: get_digest_auth_qop_user_passwd_algorithm_stale_after
+  operationId: get_digest_auth_qop_user_passwd_algorithm_staleAfter
+  method: GET
+  path: /digest-auth/{qop}/{user}/{passwd}/{algorithm}/{staleAfter}
+  description: Prompts the user for authorization using Digest Auth + Algorithm.
+- name: get_drip
+  operationId: get_drip
+  method: GET
+  path: /drip
+  description: Drips data over a duration after an optional initial delay.
+- name: get_encoding_utf8
+  operationId: get_encoding_utf8
+  method: GET
+  path: /encoding/utf8
+  description: Returns a UTF-8 encoded body.
+- name: get_etag_etag
+  operationId: get_etag_etag
+  method: GET
+  path: /etag/{etag}
+  description: Assumes the resource has the given etag and responds to If-None-Match and If-Match headers appropriately.
+- name: get_get
+  operationId: get_get
+  method: GET
+  path: /get
+  description: The request's query parameters.
+- name: get_gzip
+  operationId: get_gzip
+  method: GET
+  path: /gzip
+  description: Returns GZip-encoded data.
+- name: get_headers
+  operationId: get_headers
+  method: GET
+  path: /headers
+  description: Return the incoming request's HTTP headers.
+- name: get_hidden_basic_auth_user_passwd
+  operationId: get_hidden_basic_auth_user_passwd
+  method: GET
+  path: /hidden-basic-auth/{user}/{passwd}
+  description: Prompts the user for authorization using HTTP Basic Auth.
+- name: get_html
+  operationId: get_html
+  method: GET
+  path: /html
+  description: Returns a simple HTML document.
+- name: get_image
+  operationId: get_image
+  method: GET
+  path: /image
+  description: Returns a simple image of the type suggest by the Accept header.

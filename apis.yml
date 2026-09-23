@@ -1,23 +1,101 @@
 aid: tennet
+
 name: TenneT
-description: 'TenneT is a company surfaced via the API Evangelist harvest backlog (source: energy) and
-  added to the network as a stub for full-pipeline profiling.'
+
+description: TenneT is a leading European transmission system operator (TSO) responsible for high‑voltage electricity grids in the Netherlands
+  and Germany. It ensures reliable, secure power supply, drives the energy transition, and provides market platforms for electricity trading.
+  The company focuses on sustainability, grid expansion, and digital innovation to support a low‑carbon future.
+
 url: https://raw.githubusercontent.com/api-evangelist/tennet/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:energy
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
+- Energy
+- Transmission
+- GridOperator
+- Europe
+- Sustainability
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/tennet-rules.yml
+- type: JSONLD
+  url: json-ld/tennet-context.jsonld
+- type: Vocabulary
+  url: vocabulary/tennet-vocabulary.yml
+- type: DataModel
+  url: data-model/tennet-data-model.yml
+- type: Security
+  url: security/tennet-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/tennet-conformance.yml
+- type: SecurityTxt
+  url: well-known/tennet-security.txt
+- type: WellKnown
+  url: well-known/tennet-well-known.yml
+- type: Hosts
+  url: hosts/tennet-hosts.yml
+- type: Vendors
+  url: vendors/tennet-vendors.yml
+- type: Documentation
+  url: https://developer.tennet.eu/
+- type: VulnerabilityDisclosure
+  url: security/tennet-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/tennet-domain-security.yml
 - type: Website
   url: https://www.tennet.eu/
+
+apis:
+- name: TenneT Public API
+  description: Public API (v1) providing electricity market data.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: null
+  aid: tennet:tennet-public-api
+- aid: tennet:tennet-api
+  name: TenneT API
+  description: 'TenneT API as documented publicly: 71 operations. Contract generated from the documentation by API Evangelist (2026-09-23); not
+
+    the provider''s own document.'
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/tennet-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: API spec is embedded in HTML page and not directly machine‑readable.
+  evidence:
+  - url: https://developer.tennet.eu/specs/v1/public-api
+    status: 200
+  checked: 2026-09-23
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

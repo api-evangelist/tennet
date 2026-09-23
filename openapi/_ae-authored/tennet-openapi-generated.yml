@@ -1,0 +1,1222 @@
+openapi: 3.1.0
+info:
+  title: TenneT API
+  version: '2026-09-23'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-23: 71 operation(s) read from 23 public documentation page(s) (each
+    operation names its page in x-source). This is not the provider''s published contract; TenneT has published no machine-readable contract that
+    the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 71
+    pages-with-code: 0
+    pages-read: 23
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-23'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developer.tennet.eu/specs/v1/public-api
+  - https://developer.tennet.eu/specs/v1/merit-order-list
+  - https://developer.tennet.eu/specs/v1/settlement-prices
+  - https://developer.tennet.eu/specs/v1/metered-injections
+  - https://developer.tennet.eu/specs/v1/reconciliation-prices
+  - https://developer.tennet.eu/specs/v2/reconciliation-prices
+  - https://developer.tennet.eu/specs/v1/balance-delta-high-res
+  - https://developer.tennet.eu/specs/v1/available-border-capacity
+  - https://developer.tennet.eu/specs/v1/settled-imbalance-volumes
+  - https://developer.tennet.eu/specs/v1/reconciliation-control-data
+  - https://developer.tennet.eu/specs/v1/frequency-restoration-reserve-activations
+  - https://developer.tennet.eu/specs/v1/merit-order-list-bid-prices-incident-reserve
+  - https://developer.tennet.eu/specs/public-api
+  - https://developer.tennet.eu/specs/frequency-restoration-reserve-activations
+  - https://developer.tennet.eu/specs/merit-order-list
+  - https://developer.tennet.eu/specs/settlement-prices
+  - https://developer.tennet.eu/specs/metered-injections
+  - https://developer.tennet.eu/specs/reconciliation-prices
+  - https://developer.tennet.eu/specs/balance-delta-high-res
+  - https://developer.tennet.eu/specs/available-border-capacity
+  - https://developer.tennet.eu/specs/settled-imbalance-volumes
+  - https://developer.tennet.eu/specs/reconciliation-control-data
+  - https://developer.tennet.eu/specs/merit-order-list-bid-prices-incident-reserve
+servers:
+- url: https://api.tennet.eu
+paths:
+  /absolute-redirect/{n}:
+    get:
+      operationId: get_absolute_redirect_n
+      tags:
+      - Absolute Redirect
+      summary: Absolutely 302 Redirects n times.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /anything:
+    get:
+      operationId: get_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /anything/{anything}:
+    delete:
+      operationId: delete_anything_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: anything
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    get:
+      operationId: get_anything_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: anything
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_anything_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: anything
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_anything_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: anything
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_anything_anything
+      tags:
+      - Anything
+      summary: Returns anything passed in request data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: anything
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /base64/{value}:
+    get:
+      operationId: get_base64_value
+      tags:
+      - Base64
+      summary: Decodes base64url-encoded string.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: value
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /basic-auth/{user}/{passwd}:
+    get:
+      operationId: get_basic_auth_user_passwd
+      tags:
+      - Basic Auth
+      summary: Prompts the user for authorization using HTTP Basic Auth.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: user
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: passwd
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /bearer:
+    get:
+      operationId: get_bearer
+      tags:
+      - Bearer
+      summary: Prompts the user for authorization using bearer authentication.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /brotli:
+    get:
+      operationId: get_brotli
+      tags:
+      - Brotli
+      summary: Returns Brotli-encoded data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /bytes/{n}:
+    get:
+      operationId: get_bytes_n
+      tags:
+      - Bytes
+      summary: Returns n random bytes generated with given seed
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /cache:
+    get:
+      operationId: get_cache
+      tags:
+      - Cache
+      summary: Returns a 304 if an If-Modified-Since header or If-None-Match is present. Returns the same as a GET otherwise.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /cache/{value}:
+    get:
+      operationId: get_cache_value
+      tags:
+      - Cache
+      summary: Sets a Cache-Control header for n seconds.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: value
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /cookies:
+    get:
+      operationId: get_cookies
+      tags:
+      - Cookies
+      summary: Returns cookie data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /cookies/set/{name}/{value}:
+    get:
+      operationId: get_cookies_set_name_value
+      tags:
+      - Cookies
+      summary: Sets a cookie and redirects to cookie list.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: name
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: value
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /cookies/{cookieid}:
+    get:
+      operationId: get_cookies_cookieid
+      tags:
+      - Cookies
+      summary: Deletes cookie(s) as provided by the query string and redirects to cookie list.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: cookieid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at cookieId
+  /deflate:
+    get:
+      operationId: get_deflate
+      tags:
+      - Deflate
+      summary: Returns Deflate-encoded data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /delay/{delay}:
+    delete:
+      operationId: delete_delay_delay
+      tags:
+      - Delay
+      summary: Returns a delayed response (max of 10 seconds).
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: delay
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    get:
+      operationId: get_delay_delay
+      tags:
+      - Delay
+      summary: Returns a delayed response (max of 10 seconds).
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: delay
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_delay_delay
+      tags:
+      - Delay
+      summary: Returns a delayed response (max of 10 seconds).
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: delay
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_delay_delay
+      tags:
+      - Delay
+      summary: Returns a delayed response (max of 10 seconds).
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: delay
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_delay_delay
+      tags:
+      - Delay
+      summary: Returns a delayed response (max of 10 seconds).
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: delay
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /delete:
+    delete:
+      operationId: delete_delete
+      tags:
+      - Delete
+      summary: The request's DELETE parameters.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /deny:
+    get:
+      operationId: get_deny
+      tags:
+      - Deny
+      summary: Returns page denied by robots.txt rules.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /digest-auth/{qop}/{user}/{passwd}:
+    get:
+      operationId: get_digest_auth_qop_user_passwd
+      tags:
+      - Digest Auth
+      summary: Prompts the user for authorization using Digest Auth.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: qop
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: user
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: passwd
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /digest-auth/{qop}/{user}/{passwd}/{algorithm}:
+    get:
+      operationId: get_digest_auth_qop_user_passwd_algorithm
+      tags:
+      - Digest Auth
+      summary: Prompts the user for authorization using Digest Auth + Algorithm.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: qop
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: user
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: passwd
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: algorithm
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /digest-auth/{qop}/{user}/{passwd}/{algorithm}/{staleAfter}:
+    get:
+      operationId: get_digest_auth_qop_user_passwd_algorithm_staleAfter
+      tags:
+      - Digest Auth
+      summary: Prompts the user for authorization using Digest Auth + Algorithm.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: qop
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: user
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: passwd
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: algorithm
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: staleAfter
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /drip:
+    get:
+      operationId: get_drip
+      tags:
+      - Drip
+      summary: Drips data over a duration after an optional initial delay.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /encoding/utf8:
+    get:
+      operationId: get_encoding_utf8
+      tags:
+      - Encoding
+      summary: Returns a UTF-8 encoded body.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /etag/{etag}:
+    get:
+      operationId: get_etag_etag
+      tags:
+      - Etag
+      summary: Assumes the resource has the given etag and responds to If-None-Match and If-Match headers appropriately.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: etag
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /get:
+    get:
+      operationId: get_get
+      tags:
+      - Get
+      summary: The request's query parameters.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /gzip:
+    get:
+      operationId: get_gzip
+      tags:
+      - Gzip
+      summary: Returns GZip-encoded data.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /headers:
+    get:
+      operationId: get_headers
+      tags:
+      - Headers
+      summary: Return the incoming request's HTTP headers.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /hidden-basic-auth/{user}/{passwd}:
+    get:
+      operationId: get_hidden_basic_auth_user_passwd
+      tags:
+      - Hidden Basic Auth
+      summary: Prompts the user for authorization using HTTP Basic Auth.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: user
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: passwd
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /html:
+    get:
+      operationId: get_html
+      tags:
+      - Html
+      summary: Returns a simple HTML document.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /image:
+    get:
+      operationId: get_image
+      tags:
+      - Image
+      summary: Returns a simple image of the type suggest by the Accept header.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /image/{imageid}:
+    get:
+      operationId: get_image_imageid
+      tags:
+      - Image
+      summary: Returns a simple JPEG image.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: imageid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 4 example path(s) differing only at imageId
+  /ip:
+    get:
+      operationId: get_ip
+      tags:
+      - Ip
+      summary: Returns the requester's IP Address.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /json:
+    get:
+      operationId: get_json
+      tags:
+      - Json
+      summary: Returns a simple JSON document.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /links/{n}/{offset}:
+    get:
+      operationId: get_links_n_offset
+      tags:
+      - Links
+      summary: Generate a page containing n links to other pages which do the same.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: offset
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /patch:
+    patch:
+      operationId: patch_patch
+      tags:
+      - Patch
+      summary: The request's PATCH parameters.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /post:
+    post:
+      operationId: post_post
+      tags:
+      - Post
+      summary: The request's POST parameters.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /publications/v1/balance-delta-high-res/latest:
+    get:
+      operationId: get_publications_v1_balance_delta_high_res_latest
+      tags:
+      - Publications
+      summary: Get Balance Delta high res latest data
+      x-source: https://developer.tennet.eu/specs/v1/balance-delta-high-res
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /publications/v1/reconciliation-prices/{reconciliationpriceid}:
+    get:
+      operationId: get_publications_v1_reconciliation_prices_reconciliationpriceid
+      tags:
+      - Publications
+      summary: Get Reconciliation Prices data by timeframe
+      x-source: https://developer.tennet.eu/specs/v2/reconciliation-prices
+      parameters:
+      - name: reconciliationpriceid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at reconciliationpriceId
+  /publications/v1/{v1id}:
+    get:
+      operationId: get_publications_v1_v1id
+      tags:
+      - Publications
+      summary: Get Available Border Capacity by timeframe
+      description: The Available Border Capacity for each PTU shows the total import and export border capacity, the total aFRR profile limit,
+        and the available border capacities for Belgium and Germany.
+      x-source: https://developer.tennet.eu/specs/v1/available-border-capacity
+      parameters:
+      - name: v1id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetPublicationsV1V1IdResponse'
+      x-evidence:
+        kind: documentation
+        collapsed_from: 10 example path(s) differing only at v1Id
+  /put:
+    put:
+      operationId: put_put
+      tags:
+      - Put
+      summary: The request's PUT parameters.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /range/{numbytes}:
+    get:
+      operationId: get_range_numbytes
+      tags:
+      - Range
+      summary: Streams n random bytes generated with given seed, at given chunk size per packet.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: numbytes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /redirect-to:
+    delete:
+      operationId: delete_redirect_to
+      tags:
+      - Redirect To
+      summary: 302/3XX Redirects to the given URL.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    get:
+      operationId: get_redirect_to
+      tags:
+      - Redirect To
+      summary: 302/3XX Redirects to the given URL.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_redirect_to
+      tags:
+      - Redirect To
+      summary: 302/3XX Redirects to the given URL.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_redirect_to
+      tags:
+      - Redirect To
+      summary: 302/3XX Redirects to the given URL.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_redirect_to
+      tags:
+      - Redirect To
+      summary: 302/3XX Redirects to the given URL.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /redirect/{n}:
+    get:
+      operationId: get_redirect_n
+      tags:
+      - Redirect
+      summary: 302 Redirects n times.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /relative-redirect/{n}:
+    get:
+      operationId: get_relative_redirect_n
+      tags:
+      - Relative Redirect
+      summary: Relatively 302 Redirects n times.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /response-headers:
+    get:
+      operationId: get_response_headers
+      tags:
+      - Response Headers
+      summary: Returns a set of response headers from the query string.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_response_headers
+      tags:
+      - Response Headers
+      summary: Returns a set of response headers from the query string.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /robots.txt:
+    get:
+      operationId: get_robots_txt
+      tags:
+      - Robots
+      summary: Returns some robots.txt rules.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /status/{codes}:
+    delete:
+      operationId: delete_status_codes
+      tags:
+      - Status
+      summary: Return status code or random status code if more than one are given
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: codes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    get:
+      operationId: get_status_codes
+      tags:
+      - Status
+      summary: Return status code or random status code if more than one are given
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: codes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_status_codes
+      tags:
+      - Status
+      summary: Return status code or random status code if more than one are given
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: codes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_status_codes
+      tags:
+      - Status
+      summary: Return status code or random status code if more than one are given
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: codes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_status_codes
+      tags:
+      - Status
+      summary: Return status code or random status code if more than one are given
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: codes
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /stream-bytes/{n}:
+    get:
+      operationId: get_stream_bytes_n
+      tags:
+      - Stream Bytes
+      summary: Streams n random bytes generated with given seed, at given chunk size per packet.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /stream/{n}:
+    get:
+      operationId: get_stream_n
+      tags:
+      - Stream
+      summary: Stream n JSON responses
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      parameters:
+      - name: n
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /user-agent:
+    get:
+      operationId: get_user_agent
+      tags:
+      - User Agent
+      summary: Return the incoming requests's User-Agent header.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /uuid:
+    get:
+      operationId: get_uuid
+      tags:
+      - Uuid
+      summary: Return a UUID4.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /xml:
+    get:
+      operationId: get_xml
+      tags:
+      - Xml
+      summary: Returns a simple XML document.
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    GetPublicationsV1V1IdResponse:
+      type: object
+      properties:
+        response_payload:
+          type: object
+          description: Successful response payload
+        error_response:
+          type: object
+          description: Error response payload
+tags:
+- name: Absolute Redirect
+- name: Anything
+- name: Base64
+- name: Basic Auth
+- name: Bearer
+- name: Brotli
+- name: Bytes
+- name: Cache
+- name: Cookies
+- name: Deflate
+- name: Delay
+- name: Delete
+- name: Deny
+- name: Digest Auth
+- name: Drip
+- name: Encoding
+- name: Etag
+- name: Get
+- name: Gzip
+- name: Headers
+- name: Hidden Basic Auth
+- name: Html
+- name: Image
+- name: Ip
+- name: Json
+- name: Links
+- name: Patch
+- name: Post
+- name: Publications
+- name: Put
+- name: Range
+- name: Redirect
+- name: Redirect To
+- name: Relative Redirect
+- name: Response Headers
+- name: Robots
+- name: Status
+- name: Stream
+- name: Stream Bytes
+- name: User Agent
+- name: Uuid
+- name: Xml

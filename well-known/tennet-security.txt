@@ -1,0 +1,10 @@
+# Domeinen in het bezit van TenneT kunnen met een 302 redirect verwijzen naar
+# het centrale bestand op https://www.tennet.eu/.well-known/security.txt.
+# 
+# TenneT's domains can redirect to the central file located
+# https://www.tennet.eu/.well-known/security.txt with a 302 redirect.
+
+Contact: mailto:securitytxt@tennet.eu
+Preferred-Languages: nl, en
+Expires: 2027-09-29T22:59:00.000Z
+Canonical: https://www.tennet.eu/.well-known/security.txt
