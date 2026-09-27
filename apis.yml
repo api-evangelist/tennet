@@ -24,6 +24,13 @@ modified: '2026-09-23'
 tags:
 - Energy
 - Transmission
+- Grid Operator
+- Europe
+- Sustainability
+- Company
+tags_raw:
+- Energy
+- Transmission
 - GridOperator
 - Europe
 - Sustainability
@@ -71,20 +78,510 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: null
   aid: tennet:tennet-public-api
-- aid: tennet:tennet-api
-  name: TenneT API
-  description: 'TenneT API as documented publicly: 71 operations. Contract generated from the documentation by API Evangelist (2026-09-23); not
-
-    the provider''s own document.'
+- aid: tennet:tennet-absolute-redirect-api
+  name: TenneT Absolute Redirect API
+  description: The Absolute Redirect API from TenneT — 1 operation(s) for absolute redirect.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
+  tags:
+  - Absolute Redirect
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/tennet-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/tennet-absolute-redirect-api-openapi.yml
   - type: JSONSchema
     url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
-
+- aid: tennet:tennet-anything-api
+  name: TenneT Anything API
+  description: The Anything API from TenneT — 2 operation(s) for anything.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Anything
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-anything-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-base64-api
+  name: TenneT Base64 API
+  description: The Base64 API from TenneT — 1 operation(s) for base64.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Base64
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-base64-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-basic-auth-api
+  name: TenneT Basic Auth API
+  description: The Basic Auth API from TenneT — 1 operation(s) for basic auth.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Basic Auth
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-basic-auth-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-bearer-api
+  name: TenneT Bearer API
+  description: The Bearer API from TenneT — 1 operation(s) for bearer.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Bearer
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-bearer-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-brotli-api
+  name: TenneT Brotli API
+  description: The Brotli API from TenneT — 1 operation(s) for brotli.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Brotli
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-brotli-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-bytes-api
+  name: TenneT Bytes API
+  description: The Bytes API from TenneT — 1 operation(s) for bytes.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Bytes
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-bytes-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-cache-api
+  name: TenneT Cache API
+  description: The Cache API from TenneT — 2 operation(s) for cache.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Cache
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-cache-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-cookies-api
+  name: TenneT Cookies API
+  description: The Cookies API from TenneT — 3 operation(s) for cookies.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Cookies
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-cookies-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-deflate-api
+  name: TenneT Deflate API
+  description: The Deflate API from TenneT — 1 operation(s) for deflate.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Deflate
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-deflate-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-delay-api
+  name: TenneT Delay API
+  description: The Delay API from TenneT — 1 operation(s) for delay.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Delay
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-delay-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-delete-api
+  name: TenneT Delete API
+  description: The Delete API from TenneT — 1 operation(s) for delete.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Delete
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-delete-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-deny-api
+  name: TenneT Deny API
+  description: The Deny API from TenneT — 1 operation(s) for deny.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Deny
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-deny-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-digest-auth-api
+  name: TenneT Digest Auth API
+  description: The Digest Auth API from TenneT — 3 operation(s) for digest auth.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Digest Auth
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-digest-auth-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-drip-api
+  name: TenneT Drip API
+  description: The Drip API from TenneT — 1 operation(s) for drip.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Drip
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-drip-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-encoding-api
+  name: TenneT Encoding API
+  description: The Encoding API from TenneT — 1 operation(s) for encoding.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Encoding
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-encoding-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-etag-api
+  name: TenneT Etag API
+  description: The Etag API from TenneT — 1 operation(s) for etag.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Etag
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-etag-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-get-api
+  name: TenneT Get API
+  description: The Get API from TenneT — 1 operation(s) for get.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Get
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-get-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-gzip-api
+  name: TenneT Gzip API
+  description: The Gzip API from TenneT — 1 operation(s) for gzip.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Gzip
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-gzip-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-headers-api
+  name: TenneT Headers API
+  description: The Headers API from TenneT — 1 operation(s) for headers.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Headers
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-headers-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-hidden-basic-auth-api
+  name: TenneT Hidden Basic Auth API
+  description: The Hidden Basic Auth API from TenneT — 1 operation(s) for hidden basic auth.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Hidden Basic Auth
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-hidden-basic-auth-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-html-api
+  name: TenneT Html API
+  description: The Html API from TenneT — 1 operation(s) for html.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Html
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-html-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-image-api
+  name: TenneT Image API
+  description: The Image API from TenneT — 2 operation(s) for image.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Image
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-image-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-ip-api
+  name: TenneT Ip API
+  description: The Ip API from TenneT — 1 operation(s) for ip.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Ip
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-ip-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-json-api
+  name: TenneT JSON API
+  description: The Json API from TenneT — 1 operation(s) for json.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Json
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-json-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-links-api
+  name: TenneT Links API
+  description: The Links API from TenneT — 1 operation(s) for links.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Links
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-links-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-patch-api
+  name: TenneT Patch API
+  description: The Patch API from TenneT — 1 operation(s) for patch.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Patch
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-patch-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-post-api
+  name: TenneT Post API
+  description: The Post API from TenneT — 1 operation(s) for post.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Post
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-post-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-publications-api
+  name: TenneT Publications API
+  description: The Publications API from TenneT — 3 operation(s) for publications.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Publications
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-publications-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-put-api
+  name: TenneT Put API
+  description: The Put API from TenneT — 1 operation(s) for put.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Put
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-put-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-range-api
+  name: TenneT Range API
+  description: The Range API from TenneT — 1 operation(s) for range.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Range
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-range-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-redirect-api
+  name: TenneT Redirect API
+  description: The Redirect API from TenneT — 1 operation(s) for redirect.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Redirect
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-redirect-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-redirect-to-api
+  name: TenneT Redirect To API
+  description: The Redirect To API from TenneT — 1 operation(s) for redirect to.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Redirect To
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-redirect-to-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-relative-redirect-api
+  name: TenneT Relative Redirect API
+  description: The Relative Redirect API from TenneT — 1 operation(s) for relative redirect.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Relative Redirect
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-relative-redirect-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-response-headers-api
+  name: TenneT Response Headers API
+  description: The Response Headers API from TenneT — 1 operation(s) for response headers.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Response Headers
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-response-headers-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-robots-api
+  name: TenneT Robots API
+  description: The Robots API from TenneT — 1 operation(s) for robots.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Robots
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-robots-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-status-api
+  name: TenneT Status API
+  description: The Status API from TenneT — 1 operation(s) for status.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Status
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-status-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-stream-api
+  name: TenneT Stream API
+  description: The Stream API from TenneT — 1 operation(s) for stream.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Stream
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-stream-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-stream-bytes-api
+  name: TenneT Stream Bytes API
+  description: The Stream Bytes API from TenneT — 1 operation(s) for stream bytes.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Stream Bytes
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-stream-bytes-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-user-agent-api
+  name: TenneT User Agent API
+  description: The User Agent API from TenneT — 1 operation(s) for user agent.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - User Agent
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-user-agent-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-uuid-api
+  name: TenneT Uuid API
+  description: The Uuid API from TenneT — 1 operation(s) for uuid.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Uuid
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-uuid-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
+- aid: tennet:tennet-xml-api
+  name: TenneT XML API
+  description: The Xml API from TenneT — 1 operation(s) for xml.
+  humanURL: https://developer.tennet.eu/specs/v1/public-api
+  baseURL: https://api.tennet.eu
+  tags:
+  - Xml
+  properties:
+  - type: OpenAPI
+    url: openapi/tennet-xml-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/tennet-get-publications-v1-v1-id-response-schema.json
 x-coverage:
   state: unreadable
   reason: js-rendered-docs

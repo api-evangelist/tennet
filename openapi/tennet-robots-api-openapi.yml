@@ -1,0 +1,57 @@
+openapi: 3.2.0
+info:
+  title: TenneT Robots API
+  version: '2026-09-23'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-23: 71 operation(s) read from 23 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; TenneT has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 71
+    pages-with-code: 0
+    pages-read: 23
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-23'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developer.tennet.eu/specs/v1/public-api
+  - https://developer.tennet.eu/specs/v1/merit-order-list
+  - https://developer.tennet.eu/specs/v1/settlement-prices
+  - https://developer.tennet.eu/specs/v1/metered-injections
+  - https://developer.tennet.eu/specs/v1/reconciliation-prices
+  - https://developer.tennet.eu/specs/v2/reconciliation-prices
+  - https://developer.tennet.eu/specs/v1/balance-delta-high-res
+  - https://developer.tennet.eu/specs/v1/available-border-capacity
+  - https://developer.tennet.eu/specs/v1/settled-imbalance-volumes
+  - https://developer.tennet.eu/specs/v1/reconciliation-control-data
+  - https://developer.tennet.eu/specs/v1/frequency-restoration-reserve-activations
+  - https://developer.tennet.eu/specs/v1/merit-order-list-bid-prices-incident-reserve
+  - https://developer.tennet.eu/specs/public-api
+  - https://developer.tennet.eu/specs/frequency-restoration-reserve-activations
+  - https://developer.tennet.eu/specs/merit-order-list
+  - https://developer.tennet.eu/specs/settlement-prices
+  - https://developer.tennet.eu/specs/metered-injections
+  - https://developer.tennet.eu/specs/reconciliation-prices
+  - https://developer.tennet.eu/specs/balance-delta-high-res
+  - https://developer.tennet.eu/specs/available-border-capacity
+  - https://developer.tennet.eu/specs/settled-imbalance-volumes
+  - https://developer.tennet.eu/specs/reconciliation-control-data
+  - https://developer.tennet.eu/specs/merit-order-list-bid-prices-incident-reserve
+servers:
+- url: https://api.tennet.eu
+tags:
+- name: Robots
+paths:
+  /robots.txt:
+    get:
+      operationId: get_robots_txt
+      tags:
+      - Robots
+      summary: Returns some robots.txt rules
+      x-source: https://developer.tennet.eu/specs/v1/public-api
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
