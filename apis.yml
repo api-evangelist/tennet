@@ -215,7 +215,8 @@ apis:
   description: The Delete API from TenneT — 1 operation(s) for delete.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
-  tags:
+  tags: []
+  tags_raw:
   - Delete
   properties:
   - type: OpenAPI
@@ -287,7 +288,8 @@ apis:
   description: The Get API from TenneT — 1 operation(s) for get.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
-  tags:
+  tags: []
+  tags_raw:
   - Get
   properties:
   - type: OpenAPI
@@ -300,6 +302,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - GZIP
+  tags_raw:
   - Gzip
   properties:
   - type: OpenAPI
@@ -336,6 +340,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - HTML
+  tags_raw:
   - Html
   properties:
   - type: OpenAPI
@@ -360,6 +366,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - IP
+  tags_raw:
   - Ip
   properties:
   - type: OpenAPI
@@ -372,6 +380,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - JSON
+  tags_raw:
   - Json
   properties:
   - type: OpenAPI
@@ -395,7 +405,8 @@ apis:
   description: The Patch API from TenneT — 1 operation(s) for patch.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
-  tags:
+  tags: []
+  tags_raw:
   - Patch
   properties:
   - type: OpenAPI
@@ -407,7 +418,8 @@ apis:
   description: The Post API from TenneT — 1 operation(s) for post.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
-  tags:
+  tags: []
+  tags_raw:
   - Post
   properties:
   - type: OpenAPI
@@ -431,7 +443,8 @@ apis:
   description: The Put API from TenneT — 1 operation(s) for put.
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
-  tags:
+  tags: []
+  tags_raw:
   - Put
   properties:
   - type: OpenAPI
@@ -564,6 +577,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - UUID
+  tags_raw:
   - Uuid
   properties:
   - type: OpenAPI
@@ -576,6 +591,8 @@ apis:
   humanURL: https://developer.tennet.eu/specs/v1/public-api
   baseURL: https://api.tennet.eu
   tags:
+  - XML
+  tags_raw:
   - Xml
   properties:
   - type: OpenAPI
