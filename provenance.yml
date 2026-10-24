@@ -15,13 +15,19 @@ artifacts:
   hosts/tennet-hosts.yml:
     method: derived
     evidence: declared in the artifact
+  integrations/_index.yml:
+    method: generated
+    evidence: carries an API Evangelist house phrase
+  integrations/tennet-integration-edges.yml:
+    method: searched
+    evidence: declared in the artifact
   json-ld/tennet-context.jsonld:
     method: unknown
     evidence: no authorship recorded
   json-schema/tennet-get-publications-v1-v1-id-response-schema.json:
     method: unknown
     evidence: no authorship recorded
-  kin/checks-2026-09-24T161608.yml:
+  kin/checks-2026-10-11T110117.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-24T064009.yml:
@@ -33,9 +39,150 @@ artifacts:
   kin/score-2026-09-24T161608.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-25T210408.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-25T232841.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-03T000835.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-03T024842.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-11T110117.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   mcp/tennet-mcp.yml:
     method: derived
     evidence: declared in the artifact
+  openapi/tennet-absolute-redirect-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-anything-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-base64-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-basic-auth-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-bearer-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-brotli-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-bytes-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-cache-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-cookies-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-deflate-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-delay-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-delete-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-deny-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-digest-auth-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-drip-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-encoding-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-etag-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-get-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-gzip-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-headers-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-hidden-basic-auth-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-html-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-image-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-ip-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-json-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-links-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-patch-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-post-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-publications-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-put-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-range-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-redirect-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-redirect-to-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-relative-redirect-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-response-headers-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-robots-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-status-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-stream-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-stream-bytes-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-user-agent-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-uuid-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/tennet-xml-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   rules/tennet-rules.yml:
     method: generated
     evidence: declared in the artifact
